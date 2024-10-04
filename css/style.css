@@ -1,3 +1,6 @@
 a{
     text-decoration: none;
 }
+body{
+    background: url("../img/bg-desktop.jpg")no-repeat top center/cover;
+}
