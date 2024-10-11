@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +8,34 @@
 
 a{
     text-decoration: none;
+    font-family: Arial;
 }
+
 body{
     background: url("../img/bg-desktop.jpg")no-repeat top center/cover;
+}
+
+body *{
+    color: white;
+}
+
+p{
+    font-family: "londrina sketch";
+}
+
+.conteiner {
+    max-width: 580px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.perfil{
+    text-align: center;
+    padding: 25px 0;
+}
+
+.perfil img{
+    width: 180px;
+    border-radius: 50px ;
+
 }
